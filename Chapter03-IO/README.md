@@ -27,6 +27,7 @@ putchar('z');	// 상수로 정의
 
 ### 문자열 입출력
 > 문자열 : 문자의 배열
+
 **1.gets() / puts()** <br/>
 `char *gets(char *buffer);`
 * buffer : 입력받은 문자열을 저장할 메모리의 주소
