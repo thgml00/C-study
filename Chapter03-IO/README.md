@@ -72,5 +72,5 @@ scanf일때는 확실히 지정
 * 문자 입력 : `scanf("%c",&ch);`
 * scanf_s 사용 : `scanf_s("%c",&ch,sizeof(ch));`
 * 문자열 입력 : %s 형식만으로는 공백문자를 포함한 문자열을 입력 받을 수 없음
-* 입력 버퍼 비움 : `fflush(stdin); <br/>
+* 입력 버퍼 비움 : `fflush(stdin);` <br/>
                   `scanf("%d%*c",&age);`
