@@ -43,7 +43,7 @@ putchar('z');	// 상수로 정의
 > gets 대신 gets_s 사용 권함
 
 gets는 보안 결함이 존재할 수 있음 (보안 결함 : 버퍼 오버플로우에 의한 버퍼 오버런 공격에 대한 취약성) <br/>
--> 보안 결함이 알려진 함수를 사용하기 보다는 대체 함수를 사용하는 것이 현명한 대응 <br/>
+-> 보안 결함이 알려진 함수를 사용하기 보다는 대체 함수를 사용하는 것이 현명한 대응 <br/><br/>
 `char *gets_s(char *buffer, size_t sizeInCharacters);`
 * gets_s(szName, sizeof(szName));
 * sizeof : 메모리의 크기를 측정하는 연산자
